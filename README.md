@@ -4,12 +4,12 @@
 
 A lightweight node.js package for generating valid xml feed for popular polish product search engine Ceneo.
 
-##Installation
+## Installation
 
 yarn add @blowstack/ceneo-xml-generator
 npm i @blowstack/ceneo-xml-generator
 
-##Usage
+## Usage
 
 A function generateXML() produces feed for Ceneo as an XML file.
 It takes three obligatory arguments respectively:
@@ -89,7 +89,7 @@ export default interface AdditionalAttributeInterface {
 }
 ````
 
-##Enums
+## Enums
 
 ````typescript
     export const enum avail {
@@ -115,7 +115,7 @@ export default interface AdditionalAttributeInterface {
     }
 ````
 
-##Static Product class methods
+## Static Product class methods
 
 ````typescript
 static getAvailability(span: string): avail {...}
