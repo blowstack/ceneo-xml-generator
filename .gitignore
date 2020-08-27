@@ -1,0 +1,6 @@
+node_modules/
+build/
+coverage/
+packages/*/node_modules/
+.idea
+.vscode
