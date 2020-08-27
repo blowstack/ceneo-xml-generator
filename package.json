@@ -1,6 +1,6 @@
 {
   "name": "@blowstack/ceneo-xml-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight node.js package for generating valid xml feed for popular polish product search engine Ceneo.",
   "main": "src/index.js",
   "scripts": {
