@@ -2,6 +2,7 @@ import ProductInterface from "./models/ProductInterface";
 import EleInterface from "./models/EleInterface";
 const builder = require('xmlbuilder');
 const fs = require('fs')
+module.exports.Product = require('../src/models/Product')
 
 export const enum encodings {
     'UTF8' = 'UTF-8',

@@ -1,6 +1,6 @@
 import ProductInterface from "./ProductInterface";
 
-export default class Product implements ProductInterface {
+class Product implements ProductInterface {
 
     id!: string
     avail!: avail
@@ -92,3 +92,5 @@ export default class Product implements ProductInterface {
         yes = 1,
         no = 0
     }
+
+module.exports = Product

@@ -45,4 +45,4 @@ var Product = /** @class */ (function () {
     };
     return Product;
 }());
-exports.default = Product;
+module.exports = Product;

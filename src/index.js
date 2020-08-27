@@ -39,6 +39,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.generateXML = void 0;
 var builder = require('xmlbuilder');
 var fs = require('fs');
+module.exports.Product = require('../src/models/Product');
 exports.generateXML = function (Products, filePath, encoding) { return __awaiter(void 0, void 0, void 0, function () {
     var xml_1, writeStream, e_1;
     return __generator(this, function (_a) {

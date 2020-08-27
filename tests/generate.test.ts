@@ -1,5 +1,4 @@
-const {generateXML} = require('../src/index')
-const Product = require('../src/models/Product').default
+const {generateXML, Product} = require('../src/index')
 
 test('generate and save an example xml with 2 products', () => {
 
